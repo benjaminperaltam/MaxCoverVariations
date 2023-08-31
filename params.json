@@ -1,0 +1,29 @@
+{
+    "CommonParams": {
+        "N": 10,
+        "J": 2527,
+        "Nce": 165
+    },
+    "GAMixStochModel": {
+        "inds_path": "inds200_feasible_kde.npy",
+        "sample_file_path": "df_sample_stoch_N10.csv",
+        "calculate_reachable_nodes": false,
+        "recalculate_sample": false,
+        "n": 0
+    },
+    "MixStochModel": {
+        "sample_file_path": "df_sample_stoch_N10.csv",
+        "calculate_reachable_nodes": false,
+        "recalculate_sample": false,
+        "n": 0,
+        "max_time": 7200
+    },
+    "GAMixModel_week": {
+        "recalculate_sample": false,
+        "calculate_reachable_nodes": false,
+        "calculate_energy": false,
+        "calculate_potency": false,
+        "inds_path": "week_model/inds200_feasible_w_slots.npy",
+        "n": 0
+    }
+}
